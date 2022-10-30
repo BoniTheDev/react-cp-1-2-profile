@@ -1,26 +1,21 @@
 const element = (
-  // Write your code here.
-  <div className="bg-container">
+  <div className="congrats-card-container">
     <h1 className="heading">Congratulations</h1>
-    <div className="profile-card">
+    <div className="card">
       <img
-        className="card-image"
         src="https://assets.ccbp.in/frontend/react-js/congrats-card-profile-img.png"
-        alt="profile-photo"
+        className="profile-image"
       />
-      <div className="profile-text">
-        <h1 className="profile-name">Kiran V</h1>
-        <p className="profile-para">
-          Vishnu Institute of computer education and Technology, Bimavaram
-        </p>
-      </div>
+      <h1 className="card-title">Kiran V</h1>
+      <p className="card-description">
+        Vishnu Institute of Computer Education and Technology, Bhimavaram
+      </p>
       <img
-        className="card-image"
         src="https://assets.ccbp.in/frontend/react-js/congrats-card-watch-img.png"
-        alt="smartwatch-photo"
+        className="watch-image"
       />
     </div>
   </div>
-);
+)
 
-ReactDOM.render(element, document.getElementById("root"));
+ReactDOM.render(element, document.getElementById('root'))
