@@ -1,0 +1,60 @@
+/* Write your code here. */
+.bg-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  bg-container {
+    background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+    height: 100vh;
+    width: 75vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.heading {
+  font-size: 45px;
+  font-family: "Roboto";
+  color: #0f172a;
+}
+.profile-card {
+  background-color: #cffafe;
+  max-height: 600px;
+  min-width: 350px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.profile-text {
+  min-width: 500px;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-image {
+  height: 105px;
+  width: 100px;
+}
+.profile-name {
+  color: #1e293b;
+  font-size: 25px;
+}
+.profile-para {
+  color: #1e293b;
+  font-size: 15px;
+}
